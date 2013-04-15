@@ -28,3 +28,12 @@ gem 'jquery-rails'
 # To use debugger
 # gem 'ruby-debug'
 
+
+# use Haml for template
+gem 'haml'
+
+# use Ruby debugger
+group :development, :test do
+  gem 'ruby-debug'
+end
+
